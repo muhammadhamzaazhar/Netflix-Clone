@@ -1,0 +1,91 @@
+.signIn {
+    position: relative;
+    max-width: 300px;
+    padding: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+    top: -80px;
+
+    @media screen and (max-width:700px) {
+        max-width: 230px;
+        padding: 40px;
+        top: -60px;
+    }
+}
+
+.signIn>form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signIn>form>h1 {
+    text-align: left;
+    margin-bottom: 15px;
+
+    @media screen and (max-width:700px) {
+        font-size: 1.5rem;
+    }
+}
+
+.signIn>form>h4 {
+    text-align: left;
+    margin-top: 30px;
+
+    @media screen and (max-width: 700px) {
+        font-size: 0.8rem;
+    }
+}
+
+.signIn>form>input {
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+
+    @media screen and (max-width:700px) {
+        height: 30px;
+    }
+}
+
+.signIn>form>button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+
+    @media screen and (max-width:700px) {
+        padding: 13px 20px;
+    }
+}
+
+.signIn>form>button:hover {
+    opacity: 0.8;
+}
+
+.signUp_gray {
+    color: gray;
+}
+
+.signUp_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signIn_link {
+    padding-top: 0.6rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.signIn_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
